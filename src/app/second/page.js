@@ -1,7 +1,7 @@
 // "use client";
 import { get } from "lodash";
 import Link from "next/link";
-export const revalidate = 10;
+export const revalidate = 0;
 // export const dynamic = "force-dynamic";
 async function getData() {
   const res = await fetch(
